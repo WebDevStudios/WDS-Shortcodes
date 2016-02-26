@@ -1,0 +1,17 @@
+{
+	"name": "wds-shortcodes",
+	"title": "WDS Shortcodes",
+	"version": "0.1.0",
+	"description": "Base plugin for all WDS shortcodes.",
+	"author": {
+		"name": "WebDevStudios",
+		"url": "http://webdevstudios.com"
+	},
+	"license": "GPLv2",
+	"devDependencies": {
+	    "grunt": "latest",
+	    "grunt-contrib-watch": "latest",
+	    "grunt-wp-i18n": "latest",
+	    "load-grunt-tasks": "latest"
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "generator-plugin-wp": {
+    "name": "WDS Shortcodes",
+    "homepage": "http://webdevstudios.com",
+    "description": "Base plugin for all WDS shortcodes.",
+    "version": "0.1.0",
+    "author": "WebDevStudios",
+    "authoremail": "contact@webdevstudios.com",
+    "authorurl": "http://webdevstudios.com",
+    "license": "GPLv2",
+    "slug": "wds-shortcodes",
+    "classname": "WDS_Shortcodes",
+    "classprefix": "WDSSC_",
+    "prefix": "wds_sc",
+    "year": 2015
+  }
+}
