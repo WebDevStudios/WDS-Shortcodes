@@ -1,0 +1,28 @@
+{
+    "name": "webdevstudios/wds-shortcodes",
+    "type": "wordpress-plugin",
+    "description": "Base plugin/classes/functionality for creating shortcodes.",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "WebDevStudios",
+            "email": "contact@webdevstudios.com",
+            "homepage": "https://github.com/WebDevStudios",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["wordpress", "wp-api", "json" ],
+    "homepage": "https://github.com/WebDevStudios/WDS-Shortcodes",
+    "support": {
+        "issues": "https://github.com/WebDevStudios/WDS-Shortcodes/issues",
+        "source": "https://github.com/WebDevStudios/WDS-Shortcodes"
+    },
+    "require": {
+        "php": ">5.2",
+        "jtsternberg/shortcode-button": "^v0.2.3"
+    },
+    "autoload": {
+        "classmap": ["includes", "vendor/jtsternberg/shortcode-button/shortcode-button.php"]
+    },
+    "minimum-stability": "dev"
+}

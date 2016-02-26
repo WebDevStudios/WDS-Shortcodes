@@ -34,6 +34,9 @@
  * Built using generator-plugin-wp
  */
 
+// include composer autoloader (make sure you run `composer install`!)
+require_once trailingslashit( dirname( __FILE__ ) ) . 'vendor/autoload.php';
+
 /**
  * Main initiation class
  *
@@ -111,23 +114,6 @@ class WDS_Shortcodes_Base {
 	}
 
 	/**
-	 * Attach other plugin classes to the base plugin class.
-	 *
-	 * @since 0.1.0
-	 * @return  null
-	 */
-	public function includes() {
-		// Include additional php files here
-		require 'includes/shortcode.php';
-		require 'includes/shortcode-instances.php';
-		require 'includes/shortcodes.php';
-
-		if ( class_exists( 'Shortcode_Button' ) ) {
-			require 'includes/shortcode-admin.php';
-		}
-	}
-
-	/**
 	 * Add hooks and filters
 	 *
 	 * @since 0.1.0
@@ -179,8 +165,6 @@ class WDS_Shortcodes_Base {
 function wds_shortcodes() {
 	return WDS_Shortcodes_Base::get_instance();
 }
-
-wds_shortcodes()->includes();
 
 // Kick it off
 add_action( 'plugins_loaded', array( wds_shortcodes(), 'hooks' ) );
