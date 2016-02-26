@@ -10,7 +10,7 @@
 
 ## Description ##
 
-Base plugin for all WDS shortcodes.
+Base plugin/classes/functionality for creating shortcodes.
 
 ## Installation ##
 

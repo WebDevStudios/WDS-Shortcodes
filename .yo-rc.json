@@ -2,7 +2,7 @@
   "generator-plugin-wp": {
     "name": "WDS Shortcodes",
     "homepage": "http://webdevstudios.com",
-    "description": "Base plugin for all WDS shortcodes.",
+    "description": "Base plugin/classes/functionality for creating shortcodes.",
     "version": "0.1.0",
     "author": "WebDevStudios",
     "authoremail": "contact@webdevstudios.com",

@@ -11,7 +11,7 @@ License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Base plugin for all WDS shortcodes.
+Base plugin/classes/functionality for creating shortcodes.
 
 == Installation ==
 
