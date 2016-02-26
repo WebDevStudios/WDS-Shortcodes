@@ -73,7 +73,7 @@ abstract class WDS_Shortcode_Admin extends Shortcode_Button {
 			// Can be a callback or metabox config array
 			'cmb_metabox_config'   => array( $this, 'shortcode_button_cmb_config' ),
 			// Set the conditions of the shortcode buttons
-			'conditional_callback' => array( $this, 'only_posts' ),
+			'conditional_callback' => array( $this, 'conditional_callback' ),
 
 			// Use if you are not using CMB2 to generate the form fields
 			// 'form_display_callback' => '',
@@ -105,12 +105,12 @@ abstract class WDS_Shortcode_Admin extends Shortcode_Button {
 		return $args;
 	}
 
-	public function only_posts() {
+	public function conditional_callback() {
 		global $pagenow;
-		if ( is_admin() && ( ( 'post.php' === $pagenow ) || ( 'post-new.php' === $pagenow ) ) ) {
-			return true;
-		} else {
-			return false;
-		}
+
+		$is_only_posts = ( is_admin() && ( ( 'post.php' === $pagenow ) || ( 'post-new.php' === $pagenow ) ) );
+
+		// By default, display only for posts.
+		return $is_only_posts;
 	}
 }
