@@ -111,6 +111,18 @@ class WDS_Shortcodes_Base {
 		$this->basename = plugin_basename( __FILE__ );
 		$this->url      = plugin_dir_url( __FILE__ );
 		$this->path     = plugin_dir_path( __FILE__ );
+
+		$this->includes();
+	}
+
+	protected function includes() {
+		require 'includes/shortcode.php';
+		require 'includes/shortcode-instances.php';
+		require 'includes/shortcodes.php';
+
+		if ( class_exists( 'Shortcode_Button' ) ) {
+			require 'includes/shortcode-admin.php';
+		}
 	}
 
 	/**
