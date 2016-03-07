@@ -78,6 +78,8 @@ class WDS_Shortcode {
 	 *
 	 * @param string $att   Attribute to set
 	 * @param mixed  $value Value for attribute
+	 *
+	 * @return bool
 	 */
 	public function set_att( $att, $value ) {
 		return $this->atts[ $att ] = $value;
