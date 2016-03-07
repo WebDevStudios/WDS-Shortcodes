@@ -23,7 +23,7 @@
         "WebDevStudios/CMB2": "^v2.2.1"
     },
     "autoload": {
-        "classmap": ["includes", "vendor/jtsternberg/shortcode-button/shortcode-button.php", "webdevstudios/cmb2/init.php"]
+        "classmap": ["includes", "vendor/jtsternberg/shortcode-button/shortcode-button.php", "vendor/webdevstudios/cmb2/init.php"]
     },
     "minimum-stability": "dev"
 }
