@@ -20,10 +20,9 @@
     "require": {
         "php": ">5.2",
         "jtsternberg/shortcode-button": "^v0.2.3",
-        "WebDevStudios/CMB2": "^v2.2.1"
     },
     "autoload": {
-        "classmap": ["includes", "vendor/jtsternberg/shortcode-button/shortcode-button.php", "vendor/webdevstudios/cmb2/init.php"]
+        "classmap": [ "includes", "vendor/jtsternberg/shortcode-button/shortcode-button.php" ]
     },
     "minimum-stability": "dev"
 }
