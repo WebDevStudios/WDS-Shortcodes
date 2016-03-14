@@ -27,7 +27,7 @@ Additionally, there is also built-in [CMB2](http://wordpress.org/plugins/cmb2/) 
 * None as of yet
 
 ## Screenshots ##
-![](https://raw.githubusercontent.com/JayWood/WDS-Shortcodes/pull_1/screenshot1.png)
+![](https://raw.githubusercontent.com/WebDevStudios/WDS-Shortcodes/master/screenshot1.png)
 
 ## Changelog ##
 
