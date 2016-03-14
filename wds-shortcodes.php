@@ -111,6 +111,10 @@ class WDS_Shortcodes_Base {
 		$this->basename = plugin_basename( __FILE__ );
 		$this->url      = plugin_dir_url( __FILE__ );
 		$this->path     = plugin_dir_path( __FILE__ );
+
+		if ( ! defined( 'WDS_SHORTCODES_LOADED' ) ) {
+			define( 'WDS_SHORTCODES_LOADED', true );
+		}
 	}
 
 	/**
@@ -125,6 +129,8 @@ class WDS_Shortcodes_Base {
 		if ( ! defined( 'CMB2_Loaded' ) ) {
 			add_action( 'tgmpa_register', array( $this, 'register_required_plugin' ) );
 		}
+
+		do_action( 'wds-shortcodes-loaded', $this );
 	}
 
 	/**
