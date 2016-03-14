@@ -77,9 +77,6 @@ abstract class WDS_Shortcode_Admin extends Shortcode_Button {
 
 			// Use if you are not using CMB2 to generate the form fields
 			// 'form_display_callback' => '',
-
-			// Only set if the javascript files cannot be found
-			// 'scripts_url' => '',
 		);
 
 		return $additional_args;
