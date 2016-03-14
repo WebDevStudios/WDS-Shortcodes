@@ -21,6 +21,8 @@ Base plugin/classes/functionality for creating shortcodes.
 
 ## Frequently Asked Questions ##
 
+* None as of yet
+
 
 ## Screenshots ##
 ![](https://raw.githubusercontent.com/JayWood/WDS-Shortcodes/pull_1/screenshot1.png)
