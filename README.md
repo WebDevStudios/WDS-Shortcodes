@@ -1,5 +1,5 @@
 # WDS Shortcodes #
-**Contributors:**      WebDevStudios  
+**Contributors:**      [WebDevStudios](https://github.com/WebDevStudios), [jtsternberg](https://github.com/jtsternberg), [JayWood](https://github.com/JayWood)   
 **Donate link:**       http://webdevstudios.com  
 **Tags:**  
 **Requires at least:** 4.3  
@@ -10,7 +10,10 @@
 
 ## Description ##
 
-Base plugin/classes/functionality for creating shortcodes.
+WDS-Shortcodes gives developers the ability to easily register shortcodes with a corresponding button, so never again will your client ask, `What's that shortcode again?` Not only can you easily handle
+ the button and shortcode registration, this also supports self-closing and wrapping shortcodes with a simple config flag.
+ 
+Additionally, there is also built-in [CMB2](http://wordpress.org/plugins/cmb2/) support so you can use all your favorite fields. 
 
 ## Installation ##
 
@@ -22,7 +25,6 @@ Base plugin/classes/functionality for creating shortcodes.
 ## Frequently Asked Questions ##
 
 * None as of yet
-
 
 ## Screenshots ##
 ![](https://raw.githubusercontent.com/JayWood/WDS-Shortcodes/pull_1/screenshot1.png)
