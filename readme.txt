@@ -1,7 +1,7 @@
 === WDS Shortcodes ===
 Contributors:      WebDevStudios
 Donate link:       http://webdevstudios.com
-Tags:
+Tags:              shortcode button, shortcodes, cmb2, utility
 Requires at least: 4.3
 Tested up to:      4.3
 Stable tag:        0.1.0
