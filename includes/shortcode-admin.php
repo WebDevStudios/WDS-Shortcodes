@@ -36,7 +36,7 @@ abstract class WDS_Shortcode_Admin extends Shortcode_Button {
 			wp_die( get_class( $this ) . ' must have $shortcode and $version properties set and non-empty.' );
 		}
 
-		$button = parent::__construct( $this->shortcode, $this->_js_button_data(), $this->_additional_args() );
+		parent::__construct( $this->shortcode, $this->_js_button_data(), $this->_additional_args() );
 		remove_action( 'init', array( $this, 'hooks' ) );
 	}
 

@@ -19,10 +19,11 @@
     },
     "require": {
         "php": ">5.2",
-        "jtsternberg/shortcode-button": "^v0.2.3"
+        "jtsternberg/shortcode-button": "^v0.2.3",
+        "TGMPA/TGM-Plugin-Activation": "2.5.2"
     },
     "autoload": {
-        "classmap": ["includes", "vendor/jtsternberg/shortcode-button/shortcode-button.php"]
+        "classmap": [ "includes", "vendor/jtsternberg/shortcode-button/shortcode-button.php", "vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php" ]
     },
     "minimum-stability": "dev"
 }
