@@ -25,6 +25,7 @@ Additionally, there is also built-in [CMB2](http://wordpress.org/plugins/cmb2/) 
 
 == Frequently Asked Questions ==
 
+* None as of yet
 
 == Screenshots ==
 1. Preview of a working CMB2 metabox
