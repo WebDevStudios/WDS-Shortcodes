@@ -72,15 +72,54 @@ module.exports = function( grunt ) {
 					}
 				}
 			}
-		}
+		},
 
+		// make a zipfile
+		compress: {
+			main: {
+				options: {
+					mode: 'zip',
+					archive: 'wds-shortcodes.zip'
+				},
+				files: [ {
+						expand: true,
+						// cwd: '/',
+						src: [
+							'**',
+							'!**/**dandelion**.yml',
+							'!**/phpunit.xml',
+							'!**/package.json',
+							'!**/node_modules/**',
+							'!**/bin/**',
+							'!**/tests/**',
+							'!**/sass/**',
+							'!**.zip',
+							'!**/**.orig',
+							'!**/**.map',
+							'!**/**Gruntfile.js',
+							'!**/**composer.json',
+							'!**/**composer.lock',
+							'!**/**bower.json',
+ 							'!vendor/tgmpa/tgm-plugin-activation/plugins/**'
+						],
+						dest: '/'
+				} ]
+			}
+		},
+
+		githooks: {
+			all: {
+				// create zip and deploy changes to ftp
+				'pre-push': 'compress'
+			}
+		}
 	} );
 
 	// Default task.
 	grunt.registerTask( 'scripts', [] );
 	grunt.registerTask( 'styles', [] );
 	grunt.registerTask( 'php', [ 'addtextdomain', 'makepot' ] );
-	grunt.registerTask( 'default', ['styles', 'scripts', 'php'] );
+	grunt.registerTask( 'default', ['styles', 'scripts', 'php', 'compress'] );
 
 	grunt.util.linefeed = '\n';
 };

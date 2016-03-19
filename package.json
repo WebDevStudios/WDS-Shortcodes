@@ -12,6 +12,8 @@
 	    "grunt": "latest",
 	    "grunt-contrib-watch": "latest",
 	    "grunt-wp-i18n": "latest",
+	    "grunt-contrib-compress": "~0.11.0",
+	    "grunt-githooks": "~0.3.1",
 	    "load-grunt-tasks": "latest"
 	}
 }

@@ -10,8 +10,9 @@
 
 ## Description ##
 
-WDS-Shortcodes gives developers the ability to easily register shortcodes with a corresponding button, so never again will your client ask, `What's that shortcode again?` Not only can you easily handle
- the button and shortcode registration, this also supports self-closing and wrapping shortcodes with a simple config flag. **Please note:** you will need to run `composer install` in order to fetch the dependenceis for this plugin/library.
+WDS-Shortcodes gives developers the ability to easily register shortcodes with a corresponding button, so never again will your client ask, _What's that shortcode again?_ Not only can you easily handle the button and shortcode registration, this also supports self-closing and wrapping shortcodes with a simple config flag.
+
+**Please note:** you will need to run `composer install` in order to fetch the dependenceis for this plugin/library, **or** you can [download the zip here](https://github.com/WebDevStudios/WDS-Shortcodes/blob/master/wds-shortcodes.zip).
  
 Additionally, there is also built-in [CMB2](http://wordpress.org/plugins/cmb2/) support so you can use all your favorite fields. 
 
