@@ -4,7 +4,7 @@
 **Tags:**              shortcode button, shortcodes, cmb2, utility   
 **Requires at least:** 4.3  
 **Tested up to:**      4.3  
-**Stable tag:**        0.1.0  
+**Stable tag:**        0.1.1  
 **License:**           GPLv2  
 **License URI:**       http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -33,6 +33,9 @@ For more info, [check out the wiki](https://github.com/WebDevStudios/WDS-Shortco
 ![](https://raw.githubusercontent.com/WebDevStudios/WDS-Shortcodes/master/screenshot1.png)
 
 ## Changelog ##
+
+### 0.1.1 ###
+* Fix issues with ajax hooks not working (as they get hooked too late)
 
 ### 0.1.0 ###
 * First release
