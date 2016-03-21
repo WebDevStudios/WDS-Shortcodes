@@ -65,10 +65,32 @@ class WDS_Shortcode {
 	 */
 	public function att( $att, $default = null ) {
 		if ( isset( $this->atts[ $att ] ) && ! empty( $this->atts[ $att ] ) ) {
-			return $this->atts[ $att ];
+			return $this->maybe_json( $this->atts[ $att ] );
 		}
 
 		return $default;
+	}
+
+	/**
+	 * If a modified JSON value was stored as the attribute (Shortcode_Button handling)
+	 * then restore the JSON string, and json_decode it.
+	 *
+	 * @since  0.1.2
+	 *
+	 * @param  string  $value Attribute value
+	 *
+	 * @return string         Possibly modified attribute value
+	 */
+	protected function maybe_json( $value ) {
+		if ( 0 !== strpos( $value, '|~{' ) ) {
+			return $value;
+		}
+
+		return json_decode( str_replace(
+			array( "'", '|~', '~|' ),
+			array( '"', '[', ']' ),
+			$value
+		), 1 );
 	}
 
 	/**

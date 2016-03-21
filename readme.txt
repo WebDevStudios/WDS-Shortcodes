@@ -4,7 +4,7 @@ Donate link:       http://webdevstudios.com
 Tags:              shortcode button, shortcodes, cmb2, utility
 Requires at least: 4.3
 Tested up to:      4.3
-Stable tag:        0.1.1
+Stable tag:        0.1.2
 License:           GPLv2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 
 == Changelog ==
 
+= 0.1.2 =
+* New method, `WDS_Shortcode::maybe_json()` which automatically converts attributes from the modifed JSON string [created by Shortcode_Button](https://github.com/jtsternberg/Shortcode_Button/commit/c186e98b2f94a1e565d85593033d9b2a499d9e8e#diff-6846d1b0c8144484af006af499cd053dR397) into a normal PHP array.
+
 = 0.1.1 =
 * Fix issues with ajax hooks not working (as they get hooked too late)
 
@@ -42,6 +45,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 * First Release
 
 == Upgrade Notice ==
+
+= 0.1.2 =
+* New method, `WDS_Shortcode::maybe_json()` which automatically converts attributes from the modifed JSON string [created by Shortcode_Button](https://github.com/jtsternberg/Shortcode_Button/commit/c186e98b2f94a1e565d85593033d9b2a499d9e8e#diff-6846d1b0c8144484af006af499cd053dR397) into a normal PHP array.
 
 = 0.1.1 =
 * Fix issues with ajax hooks not working (as they get hooked too late)

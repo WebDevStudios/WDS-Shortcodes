@@ -3,7 +3,7 @@
  * Plugin Name: WDS Shortcodes
  * Plugin URI:  http://webdevstudios.com
  * Description: Base plugin/classes/functionality for creating shortcodes.
- * Version:     0.1.1
+ * Version:     0.1.2
  * Author:      WebDevStudios
  * Author URI:  http://webdevstudios.com
  * Donate link: http://webdevstudios.com
@@ -54,7 +54,7 @@ class WDS_Shortcodes_Base {
 	 * @var  string
 	 * @since  0.1.0
 	 */
-	const VERSION = '0.1.1';
+	const VERSION = '0.1.2';
 
 	/**
 	 * URL of plugin directory
