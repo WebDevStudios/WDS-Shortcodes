@@ -15,6 +15,10 @@ WDS-Shortcodes gives developers the ability to easily register shortcodes with a
 
 Additionally, there is also built-in [CMB2](http://wordpress.org/plugins/cmb2/) support so you can use all your favorite fields.
 
+For more info, [check out the wiki](https://github.com/WebDevStudios/WDS-Shortcodes/wiki).
+
+To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg/Cool-Shortcode)".
+
 == Installation ==
 
 = Manual Installation =
