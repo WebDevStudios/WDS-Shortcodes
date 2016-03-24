@@ -102,7 +102,7 @@ module.exports = function( grunt ) {
 							'!**/**bower.json',
  							'!vendor/tgmpa/tgm-plugin-activation/plugins/**'
 						],
-						dest: '/'
+						dest: '/wds-shortcodes'
 				} ]
 			}
 		},
