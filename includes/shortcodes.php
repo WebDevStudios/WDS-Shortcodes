@@ -38,7 +38,7 @@ abstract class WDS_Shortcodes {
 	 * @since 0.1.0
 	 * @return  null
 	 */
-	public final function __construct() {
+	public function __construct() {
 		// At minimum, we must have the shortcode property set.
 		if ( empty( $this->shortcode ) || ! is_string( $this->shortcode ) ) {
 			wp_die( get_class( $this ) . ' must have a non-empty $shortcode property.' );
