@@ -172,7 +172,6 @@ if ( ! class_exists( 'WDS_Shortcodes_100', false ) ) {
 				define( 'WDS_SHORTCODES_BASENAME', plugin_basename( __FILE__ ) );
 			}
 
-			error_log( WDS_SHORTCODES_VERSION .': '. print_r( WDS_SHORTCODES_DIR, true ) );
 			// Include and initiate WDS_Shortcodes_Base.
 			require_once WDS_SHORTCODES_DIR . 'includes/init.php';
 		}
