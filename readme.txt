@@ -4,7 +4,7 @@ Donate link:       http://webdevstudios.com
 Tags:              shortcode button, shortcodes, cmb2, utility
 Requires at least: 4.3
 Tested up to:      4.3
-Stable tag:        0.1.3
+Stable tag:        1.0.0
 License:           GPLv2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 
 == Changelog ==
 
+= 1.0.0 =
+* Update to be used as a library primarily (using [wp-lib-loader](https://github.com/jtsternberg/wp-lib-loader)). Will break back-compat for plugins extending the `WDS_Shortcode_Admin` class before the `'init'` hook.
+
 = 0.1.3 =
 * Update composer lock file and zip file after updating Shortcode_Button dependency.
 
@@ -48,6 +51,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 * First Release
 
 == Upgrade Notice ==
+
+= 1.0.0 =
+* Update to be used as a library primarily (using [wp-lib-loader](https://github.com/jtsternberg/wp-lib-loader)). Will break back-compat for plugins extending the `WDS_Shortcode_Admin` class before the `'init'` hook.
 
 = 0.1.3 =
 * Update composer lock file and zip file after updating Shortcode_Button dependency.

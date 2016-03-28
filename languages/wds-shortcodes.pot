@@ -2,9 +2,9 @@
 # This file is distributed under the GPLv2.
 msgid ""
 msgstr ""
-"Project-Id-Version: WDS Shortcodes 0.1.2\n"
+"Project-Id-Version: WDS Shortcodes 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wds-shortcodes\n"
-"POT-Creation-Date: 2016-03-28 01:46:17+00:00\n"
+"POT-Creation-Date: 2016-03-28 20:46:07+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,6 +12,126 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/init.php:113
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/init.php:114
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/init.php:115
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/init.php:117
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/init.php:118
+msgid "The \"WDS Shortcodes\" plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:120
+msgid "This plugin recommends the following plugin: %1$s."
+msgid_plural "This plugin recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:122
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:124
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:367
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:126
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:372
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:128
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:130
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:132
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:134
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:382
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:135
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/init.php:136
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/init.php:137
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/init.php:138
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
 
 #: includes/shortcode-admin.php:62
 #: vendor/jtsternberg/shortcode-button/lib/class-shortcode-button.php:52
@@ -64,26 +184,6 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:333
-#: wds-shortcodes.php:159
-msgid "Install Required Plugins"
-msgstr ""
-
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:334
-#: wds-shortcodes.php:160
-msgid "Install Plugins"
-msgstr ""
-
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:335
-#: wds-shortcodes.php:161
-msgid "Installing Plugin: %s"
-msgstr ""
-
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:336
-#: wds-shortcodes.php:163
-msgid "Something went wrong with the plugin API."
-msgstr ""
-
 #: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:337
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
@@ -132,20 +232,6 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:367
-#: wds-shortcodes.php:170
-msgid "The following required plugin is currently inactive: %1$s."
-msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:372
-#: wds-shortcodes.php:172
-msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
 #: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:377
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %1$s "
@@ -153,13 +239,6 @@ msgid ""
 msgid_plural ""
 "Sorry, but you do not have the correct permissions to activate the %1$s "
 "plugins."
-msgstr[0] ""
-msgstr[1] ""
-
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:382
-#: wds-shortcodes.php:180
-msgid "Begin installing plugin"
-msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -175,19 +254,8 @@ msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:397
-#: wds-shortcodes.php:182
-msgid "Return to Required Plugins Installer"
-msgstr ""
-
 #: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:398
 msgid "Return to the dashboard"
-msgstr ""
-
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:399
-#: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3029
-#: wds-shortcodes.php:183
-msgid "Plugin activated successfully."
 msgstr ""
 
 #: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:400
@@ -453,74 +521,6 @@ msgstr ""
 
 #: vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3378
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: wds-shortcodes.php:164
-msgid "The \"WDS Shortcodes\" plugin requires the following plugin: %1$s."
-msgid_plural "This plugin requires the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: wds-shortcodes.php:166
-msgid "This plugin recommends the following plugin: %1$s."
-msgid_plural "This plugin recommends the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: wds-shortcodes.php:168
-msgid ""
-"Sorry, but you do not have the correct permissions to install the %s "
-"plugin. Contact the administrator of this site for help on getting the "
-"plugin installed."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to install the %s "
-"plugins. Contact the administrator of this site for help on getting the "
-"plugins installed."
-msgstr[0] ""
-msgstr[1] ""
-
-#: wds-shortcodes.php:174
-msgid ""
-"Sorry, but you do not have the correct permissions to activate the %s "
-"plugin. Contact the administrator of this site for help on getting the "
-"plugin activated."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to activate the %s "
-"plugins. Contact the administrator of this site for help on getting the "
-"plugins activated."
-msgstr[0] ""
-msgstr[1] ""
-
-#: wds-shortcodes.php:176
-msgid ""
-"The following plugin needs to be updated to its latest version to ensure "
-"maximum compatibility with this plugin: %1$s."
-msgid_plural ""
-"The following plugins need to be updated to their latest version to ensure "
-"maximum compatibility with this plugin: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: wds-shortcodes.php:178
-msgid ""
-"Sorry, but you do not have the correct permissions to update the %s plugin. "
-"Contact the administrator of this site for help on getting the plugin "
-"updated."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to update the %s "
-"plugins. Contact the administrator of this site for help on getting the "
-"plugins updated."
-msgstr[0] ""
-msgstr[1] ""
-
-#: wds-shortcodes.php:181
-msgid "Activate installed plugin"
-msgid_plural "Activate installed plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: wds-shortcodes.php:184
-msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
