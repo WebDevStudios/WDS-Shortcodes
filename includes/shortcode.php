@@ -82,7 +82,7 @@ class WDS_Shortcode {
 	 * @return string         Possibly modified attribute value
 	 */
 	protected function maybe_json( $value ) {
-		if ( 0 !== strpos( $value, '|~{' ) ) {
+		if ( ! is_string( $value ) || 0 !== strpos( $value, '|~{' ) ) {
 			return $value;
 		}
 
