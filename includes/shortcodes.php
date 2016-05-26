@@ -135,6 +135,20 @@ abstract class WDS_Shortcodes {
 	}
 
 	/**
+	 * Attribute-getter for boolean values with a default fallback option.
+	 *
+	 * @since  0.1.0
+	 *
+	 * @param  string $att     Attribute key.
+	 * @param  mixed  $default Optional default value for this key if no value is found.
+	 *
+	 * @return mixed           Value for this attribute (or the default)
+	 */
+	public function bool_att( $att, $default = null ) {
+		return $this->shortcode_object->bool_att( $att, $default );
+	}
+
+	/**
 	 * Handles fetching and parsing the shortcode content.
 	 *
 	 * @since  0.1.0

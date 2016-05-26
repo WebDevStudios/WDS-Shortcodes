@@ -72,6 +72,25 @@ class WDS_Shortcode {
 	}
 
 	/**
+	 * Attribute-getter for boolean values with a default fallback option.
+	 *
+	 * @since  1.0.1
+	 *
+	 * @param  string $att     Attribute key.
+	 * @param  mixed  $default Optional default value for this key if no value is found.
+	 *
+	 * @return mixed           Value for this attribute (or the default)
+	 */
+	public function bool_att( $att, $default = null ) {
+		$value = $this->att( $att, $default );
+		if ( in_array( $value, array( 'false', '0', '', 0 ), 1 ) ) {
+			$value = false;
+		}
+
+		return (bool) $value;
+	}
+
+	/**
 	 * If a modified JSON value was stored as the attribute (Shortcode_Button handling)
 	 * then restore the JSON string, and json_decode it.
 	 *
