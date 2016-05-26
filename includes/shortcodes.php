@@ -1,7 +1,7 @@
 <?php
 /**
  * WDS Shortcodes Shortcodes
- * @version 0.1.0
+ * @version 1.0.1
  * @package WDS Shortcodes
  */
 
@@ -137,7 +137,7 @@ abstract class WDS_Shortcodes {
 	/**
 	 * Attribute-getter for boolean values with a default fallback option.
 	 *
-	 * @since  0.1.0
+	 * @since  1.0.1
 	 *
 	 * @param  string $att     Attribute key.
 	 * @param  mixed  $default Optional default value for this key if no value is found.
