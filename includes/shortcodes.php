@@ -121,45 +121,6 @@ abstract class WDS_Shortcodes {
 	abstract function shortcode();
 
 	/**
-	 * Attribute-getter with a default fallback option.
-	 *
-	 * @since  0.1.0
-	 *
-	 * @param  string $att     Attribute key.
-	 * @param  mixed  $default Optional default value for this key if no value is found.
-	 *
-	 * @return mixed           Value for this attribute (or the default)
-	 */
-	public function att( $att, $default = null ) {
-		return $this->shortcode_object->att( $att, $default );
-	}
-
-	/**
-	 * Attribute-getter for boolean values with a default fallback option.
-	 *
-	 * @since  1.0.1
-	 *
-	 * @param  string $att     Attribute key.
-	 * @param  mixed  $default Optional default value for this key if no value is found.
-	 *
-	 * @return mixed           Value for this attribute (or the default)
-	 */
-	public function bool_att( $att, $default = null ) {
-		return $this->shortcode_object->bool_att( $att, $default );
-	}
-
-	/**
-	 * Handles fetching and parsing the shortcode content.
-	 *
-	 * @since  0.1.0
-	 *
-	 * @return string  Parsed content.
-	 */
-	public function content() {
-		return $this->shortcode_object->content();
-	}
-
-	/**
 	 * Should be used on returned shortcode content since WordPress wpautop
 	 * will add errant paragraph tags
 	 *
@@ -179,6 +140,27 @@ abstract class WDS_Shortcodes {
 			' ',
 			'><',
 		), $string ) );
+	}
+
+	/**
+	 * Calls the methods on the shortcode_object instance.
+	 *
+	 * @since  NEXT
+	 * @param  string $method    Non-existent method name
+	 * @param  array  $arguments All arguments passed to the method
+	 * @return mixed
+	 */
+	public function __call( $method, $arguments ) {
+		switch ( $method ) {
+			case 'att':
+			case 'bool_att':
+			case 'json_decode_att':
+			case 'set_att':
+			case 'content':
+				return call_user_func_array( array( $this->shortcode_object, $method ), $arguments );
+			default:
+				throw new Exception( 'Invalid '. __CLASS__ .' method: ' . $method );
+		}
 	}
 
 	/**
