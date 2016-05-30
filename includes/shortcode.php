@@ -1,7 +1,7 @@
 <?php
 /**
  * WDS Shortcodes Shortcode
- * @version 1.0.1
+ * @version 1.0.2
  * @package WDS Shortcodes
  */
 
@@ -96,7 +96,7 @@ class WDS_Shortcode {
 	 * By default, CMB2 fields in the shortcode button form  which store an array
 	 * of information will be stored to the shortcode with a modified json format.
 	 *
-	 * @since  1.0.1
+	 * @since  1.0.2
 	 *
 	 * @param  string $att     Attribute key.
 	 * @param  mixed  $default Optional default value for this key if no value is found.

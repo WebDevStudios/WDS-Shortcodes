@@ -4,7 +4,7 @@
 **Tags:**              shortcode button, shortcodes, cmb2, utility   
 **Requires at least:** 4.3  
 **Tested up to:**      4.3  
-**Stable tag:**        1.0.1  
+**Stable tag:**        1.0.2  
 **License:**           GPLv2  
 **License URI:**       http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -35,6 +35,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 ![](https://raw.githubusercontent.com/WebDevStudios/WDS-Shortcodes/master/screenshot1.png)
 
 ## Changelog ##
+
+### 1.0.2 ###
+* Add new method, `WDS_Shortcode::json_decode_att()`, for getting decoded json attribute values. Handles converting the pseudo-json format used when storing array field datat.
 
 ### 1.0.1 ###
 * Add new method, `WDS_Shortcode::bool_att()`, for getting boolean attribute values. Handles converting "false" and "0" strings to false.
