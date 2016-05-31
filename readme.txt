@@ -4,7 +4,7 @@ Donate link:       http://webdevstudios.com
 Tags:              shortcode button, shortcodes, cmb2, utility
 Requires at least: 4.3
 Tested up to:      4.3
-Stable tag:        1.0.2
+Stable tag:        1.0.3
 License:           GPLv2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 
 == Changelog ==
 
+= 1.0.3 =
+* `WDS_Shortcode_Instances::get()` now accepts a secondary argument, `$index`, for selecing the exact object instance under the shortcode namespace.
+
 = 1.0.2 =
 * Add new method, `WDS_Shortcode::json_decode_att()`, for getting decoded json attribute values. Handles converting the pseudo-json format used when storing array field datat.
 
@@ -59,6 +62,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 * First Release
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+* `WDS_Shortcode_Instances::get()` now accepts a secondary argument, `$index`, for selecing the exact object instance under the shortcode namespace.
 
 = 1.0.2 =
 * Add new method, `WDS_Shortcode::json_decode_att()`, for getting decoded json attribute values. Handles converting the pseudo-json format used when storing array field datat.
