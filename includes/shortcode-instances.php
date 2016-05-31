@@ -49,12 +49,23 @@ class WDS_Shortcode_Instances {
 	 *
 	 * @since  0.1.0
 	 *
-	 * @param  string $shortcode Shortcode name.
+	 * @param  string   $shortcode Shortcode name.
+	 * @param  int|null $index     Index for instances under the shortcode namespace.
 	 *
 	 * @return WDS_Shortcode|null
 	 */
-	public static function get( $shortcode ) {
-		return isset( self::$instances[ $shortcode ] ) ? self::$instances[ $shortcode ] : null;
+	public static function get( $shortcode, $index = null ) {
+		if ( ! isset( self::$instances[ $shortcode ] ) ) {
+			return  null;
+		}
+
+		$instances = self::$instances[ $shortcode ];
+
+		if ( null !== $index ) {
+			return isset( $instances[ $index ] ) ? $instances[ $index ] : null;
+		}
+
+		return $instances;
 	}
 
 	/**
