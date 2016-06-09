@@ -1,7 +1,7 @@
 <?php
 /**
  * WDS Shortcode Instances
- * @version 1.0.3
+ * @version 1.0.4
  * @package WDS Shortcodes
  */
 

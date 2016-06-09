@@ -4,7 +4,7 @@
 **Tags:**              shortcode button, shortcodes, cmb2, utility   
 **Requires at least:** 4.3  
 **Tested up to:**      4.3  
-**Stable tag:**        1.0.3  
+**Stable tag:**        1.0.4  
 **License:**           GPLv2  
 **License URI:**       http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -35,6 +35,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 ![](https://raw.githubusercontent.com/WebDevStudios/WDS-Shortcodes/master/screenshot1.png)
 
 ## Changelog ##
+
+### 1.0.4 ###
+* Update shortcode-button dependency to fix modal displaying before CSS loads.
 
 ### 1.0.3 ###
 * `WDS_Shortcode_Instances::get()` now accepts a secondary argument, `$index`, for selecing the exact object instance under the shortcode namespace.
