@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d4caa53de00c779bfb81988e808bc87",
-    "content-hash": "5f65a94668d794ff0f153df292b64925",
+    "hash": "47975bc9c7092b84562afcb5afbc1827",
+    "content-hash": "33c6160b8055cac72b8584b29284d45c",
     "packages": [
         {
             "name": "jtsternberg/shortcode-button",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jtsternberg/Shortcode_Button.git",
-                "reference": "543c6771b7a733615e12e550db09d121d30cccfa"
+                "reference": "c433e669eb53780f80baad6580d9d54aa1b5675f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jtsternberg/Shortcode_Button/zipball/543c6771b7a733615e12e550db09d121d30cccfa",
-                "reference": "543c6771b7a733615e12e550db09d121d30cccfa",
+                "url": "https://api.github.com/repos/jtsternberg/Shortcode_Button/zipball/c433e669eb53780f80baad6580d9d54aa1b5675f",
+                "reference": "c433e669eb53780f80baad6580d9d54aa1b5675f",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                 "shortcodes",
                 "wordpress"
             ],
-            "time": "2016-06-09 01:29:25"
+            "time": "2016-09-06 20:39:56"
         },
         {
             "name": "tgmpa/tgm-plugin-activation",

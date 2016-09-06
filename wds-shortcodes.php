@@ -3,7 +3,7 @@
  * Plugin Name: WDS Shortcodes
  * Plugin URI:  http://webdevstudios.com
  * Description: Base plugin/classes/functionality for creating shortcodes.
- * Version:     1.0.4
+ * Version:     1.0.5
  * Author:      WebDevStudios
  * Author URI:  http://webdevstudios.com
  * Donate link: http://webdevstudios.com
@@ -22,7 +22,7 @@
  * @author    WebDevStudios <contact@webdevstudios.com>
  * @copyright 2016 WebDevStudios <contact@webdevstudios.com>
  * @license   GPL-2.0+
- * @version   1.0.4
+ * @version   1.0.5
  * @link      https://github.com/WebDevStudios/WDS-Shortcodes
  * @since     1.0.0
  */
@@ -49,7 +49,7 @@
  * Loader versioning: http://jtsternberg.github.io/wp-lib-loader/
  */
 
-if ( ! class_exists( 'WDS_Shortcodes_104', false ) ) {
+if ( ! class_exists( 'WDS_Shortcodes_105', false ) ) {
 
 	/**
 	 * Versioned loader class-name
@@ -60,18 +60,18 @@ if ( ! class_exists( 'WDS_Shortcodes_104', false ) ) {
 	 * @package  WDS_Shortcodes
 	 * @author   WebDevStudios <contact@webdevstudios.com>
 	 * @license  GPL-2.0+
-	 * @version  1.0.4
+	 * @version  1.0.5
 	 * @link     https://github.com/WebDevStudios/WDS-Shortcodes
 	 * @since    1.0.0
 	 */
-	class WDS_Shortcodes_104 {
+	class WDS_Shortcodes_105 {
 
 		/**
 		 * WDS_Shortcodes version number
 		 * @var   string
 		 * @since 1.0.0
 		 */
-		const VERSION = '1.0.4';
+		const VERSION = '1.0.5';
 
 		/**
 		 * Current version hook priority.
@@ -80,7 +80,7 @@ if ( ! class_exists( 'WDS_Shortcodes_104', false ) ) {
 		 * @var   int
 		 * @since 1.0.0
 		 */
-		const PRIORITY = 9995;
+		const PRIORITY = 9994;
 
 		/**
 		 * Starts the version checking process.
@@ -179,5 +179,5 @@ if ( ! class_exists( 'WDS_Shortcodes_104', false ) ) {
 	}
 
 	// Kick it off.
-	new WDS_Shortcodes_104;
+	new WDS_Shortcodes_105;
 }
