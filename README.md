@@ -4,7 +4,7 @@
 **Tags:**              shortcode button, shortcodes, cmb2, utility   
 **Requires at least:** 4.3  
 **Tested up to:**      4.3  
-**Stable tag:**        1.0.5  
+**Stable tag:**        1.0.6  
 **License:**           GPLv2  
 **License URI:**       http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -35,6 +35,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 ![](https://raw.githubusercontent.com/WebDevStudios/WDS-Shortcodes/master/screenshot1.png)
 
 ## Changelog ##
+
+### 1.0.6 ###
+* Update shortcode-button dependency. [See changelog](https://github.com/jtsternberg/Shortcode_Button#changelog).
 
 ### 1.0.5 ###
 * Update shortcode-button dependency. [See changelog](https://github.com/jtsternberg/Shortcode_Button#changelog).

@@ -4,7 +4,7 @@ Donate link:       http://webdevstudios.com
 Tags:              shortcode button, shortcodes, cmb2, utility
 Requires at least: 4.3
 Tested up to:      4.3
-Stable tag:        1.0.5
+Stable tag:        1.0.6
 License:           GPLv2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 1. Preview of a working CMB2 metabox
 
 == Changelog ==
+
+= 1.0.6 =
+* Update shortcode-button dependency. [See changelog](https://github.com/jtsternberg/Shortcode_Button#changelog).
 
 = 1.0.5 =
 * Update shortcode-button dependency. [See changelog](https://github.com/jtsternberg/Shortcode_Button#changelog).
@@ -68,6 +71,9 @@ To see a demo plugin, check out "[Cool Shortcode](https://github.com/jtsternberg
 * First Release
 
 == Upgrade Notice ==
+
+= 1.0.6 =
+* Update shortcode-button dependency. [See changelog](https://github.com/jtsternberg/Shortcode_Button#changelog).
 
 = 1.0.5 =
 * Update shortcode-button dependency. [See changelog](https://github.com/jtsternberg/Shortcode_Button#changelog).
