@@ -50,7 +50,7 @@
  * Loader versioning: http://jtsternberg.github.io/wp-lib-loader/
  */
 
-if ( ! class_exists( 'WDS_Shortcodes_104', false ) ) {
+if ( ! class_exists( 'WDS_Shortcodes_106', false ) ) {
 
 	/**
 	 * Versioned loader class-name
@@ -65,7 +65,7 @@ if ( ! class_exists( 'WDS_Shortcodes_104', false ) ) {
 	 * @link     https://github.com/WebDevStudios/WDS-Shortcodes
 	 * @since    1.0.0
 	 */
-	class WDS_Shortcodes_104 {
+	class WDS_Shortcodes_106 {
 
 		/**
 		 * WDS_Shortcodes version number
@@ -180,5 +180,5 @@ if ( ! class_exists( 'WDS_Shortcodes_104', false ) ) {
 	}
 
 	// Kick it off.
-	new WDS_Shortcodes_104;
+	new WDS_Shortcodes_106;
 }
