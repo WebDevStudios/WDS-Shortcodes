@@ -10,6 +10,7 @@
  * License:     GPLv2
  * Text Domain: wds-shortcodes
  * Domain Path: /languages
+ * GitHub Plugin URI: https://github.com/WebDevStudios/WDS-Shortcodes
  */
 
 /**
