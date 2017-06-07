@@ -41,8 +41,8 @@ abstract class WDS_Shortcode_Admin extends Shortcode_Button {
 
 		// Since we're hooking in the Shortcode_Button hooks method later, we need to hook in the
 		// ajax callbacks now (or they don't get fired).
-		add_action( 'wp_ajax_scb_parse_shortcode', array( 'Shortcode_Button', 'ajax_parse_shortcode' ) );
-		add_action( 'wp_ajax_nopriv_scb_parse_shortcode', array( 'Shortcode_Button', 'ajax_parse_shortcode' ) );
+		add_action( 'wp_ajax_scb_parse_shortcode', array( $this, 'ajax_parse_shortcode' ) );
+		add_action( 'wp_ajax_nopriv_scb_parse_shortcode', array( $this, 'ajax_parse_shortcode' ) );
 	}
 
 	abstract function js_button_data();

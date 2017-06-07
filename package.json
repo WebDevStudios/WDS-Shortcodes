@@ -1,7 +1,7 @@
 {
 	"name": "wds-shortcodes",
 	"title": "WDS Shortcodes",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "Base plugin/classes/functionality for creating shortcodes.",
 	"author": {
 		"name": "WebDevStudios",

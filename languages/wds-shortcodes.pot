@@ -1,14 +1,14 @@
-# Copyright (C) 2016 WebDevStudios
+# Copyright (C) 2017 WebDevStudios
 # This file is distributed under the GPLv2.
 msgid ""
 msgstr ""
-"Project-Id-Version: WDS Shortcodes 1.0.6\n"
+"Project-Id-Version: WDS Shortcodes 1.0.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wds-shortcodes\n"
-"POT-Creation-Date: 2016-09-13 00:46:16+00:00\n"
+"POT-Creation-Date: 2017-06-07 16:01:17+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
@@ -134,12 +134,12 @@ msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
 #: includes/shortcode-admin.php:62
-#: vendor/jtsternberg/shortcode-button2/lib/class-shortcode-button.php:52
+#: vendor/jtsternberg/shortcode-button/lib/class-shortcode-button.php:53
 msgid "Cancel"
 msgstr ""
 
 #: includes/shortcode-admin.php:63
-#: vendor/jtsternberg/shortcode-button2/lib/class-shortcode-button.php:53
+#: vendor/jtsternberg/shortcode-button/lib/class-shortcode-button.php:54
 msgid "Insert Shortcode"
 msgstr ""
 
@@ -163,24 +163,24 @@ msgstr ""
 msgid "Text Box on Right"
 msgstr ""
 
-#: vendor/jtsternberg/shortcode-button2/lib/class-shortcode-button.php:54
-msgid "Update Shortcode"
-msgstr ""
-
-#: vendor/jtsternberg/shortcode-button2/lib/class-shortcode-button.php:55
-msgid "Shortcode Contents"
-msgstr ""
-
-#: vendor/jtsternberg/shortcode-button2/lib/class-shortcode-button.php:341
-msgid "failed verification"
-msgstr ""
-
-#: vendor/jtsternberg/shortcode-button2/lib/class-shortcode-button.php:440
+#: vendor/jtsternberg/shortcode-button/lib/class-shortcode-button-mce.php:102
 msgid "No items found."
 msgstr ""
 
-#: vendor/jtsternberg/shortcode-button2/templates/modal.php:7
-#: vendor/jtsternberg/shortcode-button2/templates/modal.php:10
+#: vendor/jtsternberg/shortcode-button/lib/class-shortcode-button.php:55
+msgid "Update Shortcode"
+msgstr ""
+
+#: vendor/jtsternberg/shortcode-button/lib/class-shortcode-button.php:56
+msgid "Shortcode Contents"
+msgstr ""
+
+#: vendor/jtsternberg/shortcode-button/lib/class-shortcode-button.php:342
+msgid "failed verification"
+msgstr ""
+
+#: vendor/jtsternberg/shortcode-button/templates/modal.php:7
+#: vendor/jtsternberg/shortcode-button/templates/modal.php:10
 msgid "Close"
 msgstr ""
 

@@ -19,7 +19,7 @@
     },
     "require": {
         "php": ">5.2",
-        "jtsternberg/shortcode-button": "^v1.0.5",
+        "jtsternberg/shortcode-button": "^v1.0.7",
         "TGMPA/TGM-Plugin-Activation": "2.5.2"
     },
     "autoload": {
