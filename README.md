@@ -8,6 +8,8 @@
 **License:**           GPLv2  
 **License URI:**       http://www.gnu.org/licenses/gpl-2.0.html  
 
+<a href="https://webdevstudios.com/contact/"><img src="https://webdevstudios.com/wp-content/uploads/2018/04/wds-github-banner.png" alt="WebDevStudios. WordPress for big brands."></a>
+
 ## Description ##
 
 WDS-Shortcodes gives developers the ability to easily register shortcodes with a corresponding button, so never again will your client ask, _What's that shortcode again?_ Not only can you easily handle the button and shortcode registration, this also supports self-closing and wrapping shortcodes with a simple config flag.
