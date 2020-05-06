@@ -22,8 +22,5 @@
         "jtsternberg/shortcode-button": "^v1.0.7",
         "tgmpa/tgm-plugin-activation": "2.5.2"
     },
-    "autoload": {
-        "files": ["vendor/jtsternberg/shortcode-button/shortcode-button.php"]
-    },
     "minimum-stability": "dev"
 }
