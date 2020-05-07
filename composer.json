@@ -20,7 +20,7 @@
     "require": {
         "php": ">5.2",
         "jtsternberg/shortcode-button": "^v1.0.7",
-        "tgmpa/tgm-plugin-activation": "2.5.2"
+        "tgmpa/tgm-plugin-activation": "^2.6.1"
     },
     "minimum-stability": "dev"
 }
