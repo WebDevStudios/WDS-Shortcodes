@@ -26,6 +26,7 @@
         "classmap": [
             "wds-shortcodes.php",
             "includes/"
+            ]
     },
     "minimum-stability": "dev"
 }
