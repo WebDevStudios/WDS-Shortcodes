@@ -23,6 +23,9 @@
         "tgmpa/tgm-plugin-activation": "^2.6.1"
     },
     "autoload": {
+        "classmap": [
+            "wds-shortcodes.php",
+            "includes/"
     },
     "minimum-stability": "dev"
 }
